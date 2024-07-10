@@ -25,7 +25,7 @@ Implemeation is in progress.
    see [How to install a custom Advanced Action](https://www.neotys.com/documents/doc/neoload/latest/en/html/#25928.htm)
 
 ## Advanced Actions definitions
-### ldapConnect
+### SAP_RFC
 
 This Advanced Action establishes a connection with server & make RF calls based on your inputs
 Example:
