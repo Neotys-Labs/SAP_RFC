@@ -20,7 +20,7 @@ Implemeation is in progress.
 
 ## Installation
 
-### Setting up the NeoLoad Tricentis Tosca Add-on
+### Setting up the NeoLoad Advance action for SAP RFC
 
 1. Download the latest Advance Action jar [latest release](https://github.com/Neotys-Labs/SAP_RFC/releases/tag/sap_RFC-0.0.2).
    Keept the Jar file in the extlib folder of yor Neoload Project
