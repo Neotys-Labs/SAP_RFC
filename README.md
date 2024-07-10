@@ -30,7 +30,7 @@ Implemeation is in progress.
 This Advanced Action establishes a connection with server & make RF calls based on your inputs
 Example:
 <p align="center"><img src="/screenshot/sap_rfc_reqdesign.PNG" alt="sap_rfc" /></p>
-<p align="center"><img src="/screenshot/sap_rfc Advance action response.png" alt="sap_rfc_response" /></p>
+<p align="center"><img src="/screenshot/sap_rfc_response.png" alt="sap_rfc_response" /></p>
 
 
 ## ChangeLog
