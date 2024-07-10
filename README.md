@@ -34,5 +34,5 @@ Example:
 
 ## ChangeLog
 
-* Version 0.0.1 (Apr 1st 2022): perform Account lookup
+* Version 0.0.2 (June 10st 2024): perform Simple function calls Table & structure yet to implement
 
