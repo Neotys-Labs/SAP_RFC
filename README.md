@@ -20,10 +20,16 @@ Implemeation is in progress.
 
 ## Installation
 
-1. Download the [latest release](https://github.com/Neotys-Labs/Ldap/releases/tag/ldap-0.0.1)
-1. Read the NeoLoad documentation to
-   see [How to install a custom Advanced Action](https://www.neotys.com/documents/doc/neoload/latest/en/html/#25928.htm)
+### Setting up the NeoLoad Tricentis Tosca Add-on
 
+1. Download the latest Advance Action jar [latest release](https://github.com/Neotys-Labs/SAP_RFC/releases/tag/sap_RFC-0.0.2).
+   Keept the Jar file in the extlib folder of yor Neoload Project
+
+3. Download the External Refereces files from floder (https://github.com/Neotys-Labs/SAP_RFC/tree/main/ExternalReferences)
+   keep sapjco3.jar in Jar file in the extlib folder of yor Neoload Project
+   keep sapjco3.dll file <Neoload Installation folder>\lib\x64
+
+4. restart neoload
 ## Advanced Actions definitions
 ### SAP_RFC
 
