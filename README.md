@@ -65,7 +65,7 @@ Status Codes:
 * NL-RFCClient_ERROR :  Any error while calling RFC function. 
 Example:
 <p align="center"><img src="/screenshot/scan_function_design.PNG" alt="sap_rfc_scan_design" /></p>
-<p align="center"><img src="/screenshot/scan_function_response.PNG" alt="sap_rfc_scan_response" /></p>
+<p align="center"><img src="/screenshot/scan function_response.PNG" alt="sap_rfc_scan_response" /></p>
 
 ## rfc_execute - Parameters
 This Advanced Action retrieves the defenition of function -Inputs & Oupputs parameters
