@@ -64,8 +64,8 @@ This Advanced Action retreives the defenition of function -Inputs & Oupputs para
 Status Codes:
 * NL-RFCClient_ERROR :  Any error while calling RFC function. 
 Example:
-<p align="center"><img src="/screenshot/scan function design.PNG" alt="sap_rfc_scan_design" /></p>
-<p align="center"><img src="/screenshot/scan function response.PNG" alt="sap_rfc_scan_response" /></p>
+<p align="center"><img src="/screenshot/scan_function_design.PNG" alt="sap_rfc_scan_design" /></p>
+<p align="center"><img src="/screenshot/scan_function_response.PNG" alt="sap_rfc_scan_response" /></p>
 
 ## rfc_execute - Parameters
 This Advanced Action retrieves the defenition of function -Inputs & Oupputs parameters
@@ -80,8 +80,8 @@ This Advanced Action retrieves the defenition of function -Inputs & Oupputs para
 Status Codes:
 * NL-RFCClient_ERROR :  Any error while calling RFC function. 
 Example:
-<p align="center"><img src="/screenshot/Execute function Design.PNG" alt="sap_rfc_execute_design" /></p>
-<p align="center"><img src="/screenshot/Execute function response.PNG" alt="sap_rfc_execute_response" /></p>
+<p align="center"><img src="/screenshot/Execute_function_Design.PNG" alt="sap_rfc_execute_design" /></p>
+<p align="center"><img src="/screenshot/Execute_function_response.PNG" alt="sap_rfc_execute_response" /></p>
 
 ## ChangeLog
 
