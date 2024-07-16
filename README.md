@@ -33,7 +33,18 @@ Implemeation is in progress.
 ## Advanced Actions definitions
 ### SAP_RFC
 
-This Advanced Action establishes a connection with server & make RF calls based on your inputs
+This Advanced Action establishes a connection with server  based on your inputs
+## SQL Stored Procedure - Parameters
+
+| Name                     | Description       |
+| ---------------          | ----------------- |
+| Destination              | A name of the SAP connection. this name will be using in rest of teh actions            |
+| Host                     | SAP Server name or IP address to connect |
+| SYSNR                    | SYSNR |
+| Client                   | Client |
+
+Status Codes:
+* NL-RFCClient_ERROR :  Any error while calling RFC function. 
 Example:
 <p align="center"><img src="/screenshot/sap_rfc_reqdesign.PNG" alt="sap_rfc" /></p>
 <p align="center"><img src="/screenshot/sap_rfc_response.PNG" alt="sap_rfc_response" /></p>
