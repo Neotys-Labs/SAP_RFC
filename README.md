@@ -33,8 +33,9 @@ Implemeation is in progress.
 ## Advanced Actions definitions
 ### SAP_RFC
 
-This Advanced Action establishes a connection with server  based on your inputs
-## SQL Stored Procedure - Parameters
+Advanced Actions to perform various opeartions connecting SAP server, Scan server for various functions defenitions/metadata then execute the same  based on your inputs & show the output revived back from server if any.
+## rfc_connect - Parameters
+This Advanced Action establishes a connection with server  based on your input
 
 | Name                     | Description       |
 | ---------------          | ----------------- |
@@ -42,6 +43,8 @@ This Advanced Action establishes a connection with server  based on your inputs
 | Host                     | SAP Server name or IP address to connect |
 | SYSNR                    | SYSNR |
 | Client                   | Client |
+| Username                 | Username |
+| Password                 | Password |
 
 Status Codes:
 * NL-RFCClient_ERROR :  Any error while calling RFC function. 
@@ -49,6 +52,36 @@ Example:
 <p align="center"><img src="/screenshot/sap_rfc_reqdesign.PNG" alt="sap_rfc" /></p>
 <p align="center"><img src="/screenshot/sap_rfc_response.PNG" alt="sap_rfc_response" /></p>
 
+## rfc_scan - Parameters
+This Advanced Action retreives the defenition of function -Inputs & Oupputs parameters
+
+| Name                     | Description       |
+| ---------------          | ----------------- |
+| Destination              | A name of the SAP connection. this name will be using in rest of teh actions            |
+| Remote Functiuon         | Name of the remote function |
+
+
+Status Codes:
+* NL-RFCClient_ERROR :  Any error while calling RFC function. 
+Example:
+<p align="center"><img src="/screenshot/sap_rfc_reqdesign.PNG" alt="sap_rfc" /></p>
+<p align="center"><img src="/screenshot/sap_rfc_response.PNG" alt="sap_rfc_response" /></p>
+
+## rfc_execute - Parameters
+This Advanced Action retrieves the defenition of function -Inputs & Oupputs parameters
+
+| Name                     | Description       |
+| ---------------          | ----------------- |
+| Destination              | A name of the SAP connection. this name will be using in rest of teh actions            |
+| Remote Functiuon         | Name of the remote function |
+| InParameters Value       | Input parameters & its values tuples coma separated  EX- param1:value1,parm2:value2 |
+
+
+Status Codes:
+* NL-RFCClient_ERROR :  Any error while calling RFC function. 
+Example:
+<p align="center"><img src="/screenshot/sap_rfc_reqdesign.PNG" alt="sap_rfc" /></p>
+<p align="center"><img src="/screenshot/sap_rfc_response.PNG" alt="sap_rfc_response" /></p>
 
 ## ChangeLog
 
