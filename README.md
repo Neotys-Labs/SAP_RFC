@@ -34,7 +34,7 @@ Implemeation is in progress.
 ### SAP_RFC
 
 Advanced Actions to perform various opeartions connecting SAP server, Scan server for various functions defenitions/metadata then execute the same  based on your inputs & show the output revived back from server if any.
-## rfc_connect - Parameters
+##1. rfc_connect - Parameters
 This Advanced Action establishes a connection with server  based on your input
 
 | Name                     | Description       |
