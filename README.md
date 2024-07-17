@@ -13,16 +13,16 @@ Implemeation is in progress.
 | Support            | Supported by Neotys                                                           |
 | Author             | Neotys                                                                        |
 | License            | [BSD Simplified](https://www.neotys.com/documents/legal/bsd-neotys.txt)       |
-| NeoLoad            | 6.5.1 (Enterprise or Professional Edition w/ Integration & Advanced Usage)    |
+| NeoLoad            | 2024.2 (Enterprise or Professional Edition w/ Integration & Advanced Usage)    |
 | Bundled in NeoLoad | No                                                                          |
-| Download Binaries  | See the [latest release](https://github.com/Neotys-Labs/Ldap/releases/tag/ldap-0.0.1) |
+| Download Binaries  | See the [latest release]() |
 
 
 ## Installation
 
 ### Setting up the NeoLoad Advance action for SAP RFC
 
-1. Download the latest Advance Action jar [latest release](https://github.com/Neotys-Labs/SAP_RFC/releases/tag/sap_RFC-0.0.2).
+1. Download the latest Advance Action jar [latest release](https://github.com/Neotys-Labs/SAP_RFC/releases/tag/sap_RFC-0.0.5).
    Keept the Jar file in the extlib folder of yor Neoload Project
 
 3. Download the External Refereces files from floder (https://github.com/Neotys-Labs/SAP_RFC/tree/main/ExternalReferences)
