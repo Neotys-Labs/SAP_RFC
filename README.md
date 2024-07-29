@@ -3,7 +3,7 @@
 It’s a protocol used by SAP systems to  communicate and execute functions in remote systems (sap/external). Mainly used for dataexcahnge , system integartions & distributed computing.Its classified in to four types, synchronous RFC ,Assynchronus RFC , Transactional RFC & Queued RFC​.
 
 # IDOC
-IDoc (intermediate document) is a standard data structure used in SAP applications to transfer data to and from SAP system applications and external systems. Using IDocs, companies with SAP ERP systems, for example, can exchange data with external entities like their partners or customers
+IDoc (intermediate document) is a standard data structure used in SAP applications to transfer data to and from SAP system applications and external systems over TFC protocol. Using IDocs, companies with SAP ERP systems, for example, can exchange data with external entities like their partners or customers
 
 ## Overview
 
