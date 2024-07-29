@@ -28,7 +28,7 @@ Implementation is in progress.
    Keept the Jar file in the extlib folder of yor Neoload Project
 
 3. Download the External Refereces files from floder (https://github.com/Neotys-Labs/SAP_RFC/tree/main/ExternalReferences)
-   keep sapjco3.jar in Jar file in the extlib folder of yor Neoload Project
+   keep sapjco3.jar & sapidoc3.jar (optional need only if you want IDOC transfer)in Jar file in the extlib folder of yor Neoload Project
    keep sapjco3.dll file <Neoload Installation folder>\lib\x64
 
 4. restart neoload
